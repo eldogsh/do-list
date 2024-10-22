@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header h2{
+    padding: 10px;
+}
+.del{
+    padding: 6px;
+    cursor: pointer;
+}
+.valid{
+    padding: 10px;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    border-radius: 15px;
+    transition: 1s ease-in-out;
+
+}
+.done{
+    text-decoration: line-through;
+    color: blue;
+}
+
+/* تنسيق الحاوية العامة */
+
+/* تنسيق الأزرار */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* تنسيق زر Add Task */
+#addTaskBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+/* تنسيق زر clearALL */
+#clearall {
+    background-color: white;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+}
+
+/* عند مرور الماوس على الأزرار */
+#addTaskBtn:hover, #clearall:hover {
+    opacity: 0.8;
+}
+
+/* تنسيق div لرسالة emp */
+@media(max-width:500px){
+    #emp{
+        margin-top: 10px;
+        max-width: 100%;
+
+    }
+}
+
+/* 
